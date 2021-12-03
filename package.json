@@ -1,0 +1,17 @@
+{
+  "name": "intel-api",
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": "rafael hernandez",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node src/app",
+    "dev": "nodemon src/app",
+    "generate": "node engine"
+  },
+  "dependencies": {
+    "fs-extra": "^10.0.0",
+    "path": "^0.12.7"
+  }
+}

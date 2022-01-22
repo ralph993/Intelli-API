@@ -1,10 +1,12 @@
+"use strict";
+
 const fs = require("fs-extra");
 const path = require("path");
 const apiFolder = path.resolve("./src/api");
 const checkApiFolder = fs.ensureDir(apiFolder);
 const apiFiles = fs.readdirSync(apiFolder);
 const template = `
-"use strict";
+
 module.exports = {}
 `;
 const opts = [
